@@ -14,6 +14,8 @@
   align-items: center;
   margin-top: 0px;
   padding-top: 0;
+  position: fixed;
+  top: 0;
 }
 
 
@@ -58,6 +60,16 @@ nav > ul > li:hover{
   color: black;
 }
 
+
+.email-heading{
+  margin-top: 100px;
+  width: 100%; 
+}
+
+.email-details{
+    margin-left: 100px;
+}
+
 h1{
   margin: 20px   0px;
   padding: 10px;
@@ -82,6 +94,64 @@ h1{
  
 }
 
+.icon-details{
+  /* margin: 30px 100px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-image{
+  transform: scale(0.4);
+}
+
+.details{
+  margin: 40px 20px;
+  
+}
+
+.all-details{
+  padding: 0 190px;
+}
 
 
+body{
+  align-items: center;
+}
 
+.all-box{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 50px;
+}
+.box{
+  height: 290px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.box-head{
+  background-color: grey;
+  margin-top:0;
+}
+
+
+footer{
+  margin:  0 150px;
+  background-color: rgb(160, 160, 160);
+  padding: 20px 60px;
+
+}
+
+.footer-icon{
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+footer > p{
+  width: 50%;
+  margin-left: 100vh;
+}
